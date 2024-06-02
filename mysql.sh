@@ -10,7 +10,7 @@ Heading Installing MySQL Server
 dnf install mysql-server -y &>>/tmp/expense.log
 Stat $?
 
-Heading Start Nginx Service
+Heading Start mysql Service
 systemctl enable mysqld &>>/tmp/expense.log
 systemctl start mysqld &>>/tmp/expense.log
 Stat $?
